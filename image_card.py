@@ -9,7 +9,7 @@ from weather_parser import WeatherMaker
 class ImageMaker:
     """Класс рисования карточек."""
 
-    def __init__(self, text, url='python_snippets/external_data/', template='probe.jpg'):
+    def __init__(self, text, url='external_data/', template='probe.jpg'):
         self.text = text
         self.url = url
         self.template = template
